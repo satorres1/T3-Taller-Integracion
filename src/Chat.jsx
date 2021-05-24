@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import './App.css';
 import io from "socket.io-client";
 import moment from 'moment'
-const ENDPOINT = "ws://tarea-3-websocket.2021-1.tallerdeintegracion.cl";
+const ENDPOINT = "wss://tarea-3-websocket.2021-1.tallerdeintegracion.cl";
 
 
 const Chat = (props) => {

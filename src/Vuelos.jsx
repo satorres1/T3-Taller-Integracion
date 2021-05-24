@@ -5,7 +5,7 @@ import Chat from "./Chat"
 import io from "socket.io-client";
 import { MapContainer, TileLayer, Marker, Popup, Polyline, Tooltip } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
-const ENDPOINT = "ws://tarea-3-websocket.2021-1.tallerdeintegracion.cl";
+const ENDPOINT = "wss://tarea-3-websocket.2021-1.tallerdeintegracion.cl";
 
 
 const Vuelos = (props) => {
