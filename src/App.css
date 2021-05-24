@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.leaflet-container {
+  width: 75%;
+  height: 75vh;
+}
+
+.columna {
+  border: solid;
+  border-color: cornflowerblue;
+  border-radius: 15px;
+  margin: 0.5%;
+}
+
+.pedir-vuelos {
+  margin: 1%;
+}
+
+.chatbox {
+  margin: 1%;
+}
+
+.chatboton {
+  margin-left: 1%;
+}
+
+.dialogo-chat{
+  border: solid;
+  margin: 0.5%;
+  border-radius: 15px;
+}
